@@ -1,9 +1,0 @@
-com\impotechco\service\UsuarioService.class
-com\impotechco\config\CorsConfig.class
-com\impotechco\repository\UsuarioRepository.class
-com\impotechco\ConexionMySQL.class
-com\impotechco\config\SecurityConfig.class
-com\impotechco\config\WebConfig.class
-com\impotechco\controller\AuthController.class
-com\impotechco\Main.class
-com\impotechco\models\Usuario.class
