@@ -13,8 +13,9 @@
         <div class="profile">
             <img src="imagenes/avatar perfil.png" alt="Avatar">
             <p>Impotech Co</p>
-            <p>xxxxxxxx@gmail.com</p>
+            <p id="email-usuario">Cargando...</p>
         </div>
+        
         <!--Menu lateral-->
         <nav class="menu">
             <div class="menu-item">
@@ -67,6 +68,14 @@
             </div>
         </div>
     </div>
+    
+    <script>
+        const token = sessionStorage.getItem("token");
+        if (!token) {
+            window.location.href = "../Inicio de sesion/index.html"; // Redirigir si no hay sesión activa
+        }
+    </script>
+    
 
     <!-- Scripts -->
 

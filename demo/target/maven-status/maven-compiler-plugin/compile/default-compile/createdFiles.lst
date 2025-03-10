@@ -1,4 +1,5 @@
 com\impotechco\service\UsuarioService.class
+com\impotechco\config\CorsConfig.class
 com\impotechco\repository\UsuarioRepository.class
 com\impotechco\ConexionMySQL.class
 com\impotechco\config\SecurityConfig.class

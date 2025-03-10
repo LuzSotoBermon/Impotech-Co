@@ -2,6 +2,7 @@ package com.impotechco.models;
 
 import jakarta.persistence.*;
 
+
 @Entity
 @Table(name = "usuarios")
 public class Usuario {
@@ -12,11 +13,10 @@ public class Usuario {
     private String nombre;
     private String email;
     private String password;
+    private String sessionToken; // Nuevo campo para manejar sesiones
 
-    // Constructor vacío
     public Usuario() {}
 
-    // Constructor con parámetros
     public Usuario(String nombre, String email, String password) {
         this.nombre = nombre;
         this.email = email;
@@ -35,4 +35,7 @@ public class Usuario {
 
     public String getPassword() { return password; }
     public void setPassword(String password) { this.password = password; }
+
+    public String getSessionToken() { return sessionToken; }
+    public void setSessionToken(String sessionToken) { this.sessionToken = sessionToken; }
 }
