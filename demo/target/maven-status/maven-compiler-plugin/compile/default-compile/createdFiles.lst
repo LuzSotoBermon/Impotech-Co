@@ -1,0 +1,10 @@
+com\impotechco\config\CorsConfig$1.class
+com\impotechco\controller\UsuarioController.class
+com\impotechco\service\UsuarioService.class
+com\impotechco\config\CorsConfig.class
+com\impotechco\repository\UsuarioRepository.class
+com\impotechco\controller\AuthController.class
+com\impotechco\DemoApplication.class
+com\impotechco\config\SecurityConfig.class
+com\impotechco\Main.class
+com\impotechco\models\Usuario.class
